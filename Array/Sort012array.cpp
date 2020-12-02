@@ -19,7 +19,7 @@ void sort012(int arr[],int n)
            {
              mid++;
            }
-           if(a[mid] == 2)
+         else if(a[mid] == 2)
            {
               swap(a[mid],a[high]);
               high--;
