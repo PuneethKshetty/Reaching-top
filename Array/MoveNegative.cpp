@@ -95,9 +95,9 @@ int main()
       {
         cin>>arr[i];
       }
-      cout<<"Before Display"<<display(arr,n)<<endl;
+      cout<<"Before Display"<<display(arr,n-1)<<endl;
       MoveNegate(arr,0,n-1);
-      cout<<"After Display"<<display(arr,n)<<endl;
+      cout<<"After Display"<<display(arr,n-1)<<endl;
    }
    return 0;
 }
